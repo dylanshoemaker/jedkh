@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const sequelize = require('../config/connection');
-const { Post, User, Comment,  } = require('../models');
+const { Post, User, Comment } = require('../models');
 const withAuth = require('../utils/auth');
 
 // get all posts for dashboard
@@ -15,8 +15,7 @@ router.get('/', withAuth, (req, res) => {
       'id',
       'post_contents',
       'title',
-      'created_at',
-      
+      'created_at'
     ],
     include: [
       {
