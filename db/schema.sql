@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS jedkh_db;
+
+CREATE DATABASE jedkh_db;
