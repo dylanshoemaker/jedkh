@@ -4,12 +4,12 @@ const { User, Post } = require('../models');
 const userdata = [
   {
     username: 'test',
-    email: 'test@tester.com',
+    email: 'test@tester',
     password: 'Password123'
   },
   {
     username: 'jwilloughway1',
-    email: 'rmebes1@sogou.com',
+    email: 'rmebes1@sogou',
     password: 'password123'
   },
   {
@@ -24,22 +24,22 @@ const userdata = [
   },
   {
     username: 'djiri4',
-    email: 'gmidgley4@weather.com',
+    email: 'gmidgley4@weather',
     password: 'password123'
   },
   {
     username: 'msprague5',
-    email: 'larnout5@imdb.com',
+    email: 'larnout5@imdb',
     password: 'password123'
   },
   {
     username: 'mpergens6',
-    email: 'hnapleton6@feedburner.com',
+    email: 'hnapleton6@feedburner',
     password: 'password123'
   },
   {
     username: 'tpenniell7',
-    email: 'kperigo7@china.com.cn',
+    email: 'kperigo7@china',
     password: 'password123'
   },
   {
@@ -49,7 +49,7 @@ const userdata = [
   },
   {
     username: 'jmacarthur9',
-    email: 'bsteen9@epa.gov',
+    email: 'bsteen9@epa',
     password: 'password123'
   }
 ];
