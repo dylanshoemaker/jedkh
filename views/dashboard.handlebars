@@ -8,7 +8,7 @@
     </div>
     <div>
       <label for="post-contents">Contents</label>
-      <input id="post-contents" name="post-contents" />
+      <input type="text" id="post-contents" name="post-contents" />
     </div>
     <button type="submit" class="btn">Create</button>
   </form>
@@ -17,14 +17,14 @@
 {{#if posts.length}}
 <section>
   <h2>Your Posts</h2>
-  <ol>
+  <ul>
     {{#each posts as |post|}}
     <li>
       {{> post-info post}}
       <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit Post</a>
     </li>
     {{/each}}
-  </ol>
+  </ul>
 </section>
 {{/if}}
 

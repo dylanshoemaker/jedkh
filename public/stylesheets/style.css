@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+* li {
+  list-style-type: none;
+}
+body {
+  background-color: #225ca346;
+}
 body, html {
   height: 100%;
   padding: 0;
@@ -120,6 +126,7 @@ main {
 .post {
   margin-bottom: 2%;
   line-height: 150%;
+  border: solid 4px black;
 }
 
 .post .title span {
@@ -161,7 +168,16 @@ main {
 .edit-post-form {
   margin-bottom: 5%;
 }
-
+.post .title {
+  background-color: rgba(0, 0, 0, 0.432);
+  border-bottom: 2px solid black;
+}
+.post .title a {
+  color: #113969;
+}
+.post .title p {
+  border-top: 1px solid black;
+}
 footer {
   border-top: 1px solid #ccc;
   display: flex;
