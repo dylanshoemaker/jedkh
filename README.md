@@ -16,6 +16,10 @@ MVC style social media blog using handlebars and JavaScript
 
 # Usage
 Anyone can create an account and post delete and edit posts and comments. Only users that are logged in can make posts, make comments and view comments, but seeing posts does not require a user to be logged in!
+
+## Link to application
+Heroku - https://jedkh.herokuapp.com/
+
 ## Screenshot
 ![Screenshot](https://github.com/DylanShoemaker/jedkh/blob/main/public/assets/screenshot.PNG)
 
