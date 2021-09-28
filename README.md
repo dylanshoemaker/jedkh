@@ -1,4 +1,4 @@
-# Coffee Is The Answer
+# Social Media Application 
 
 ![GitHub license](https://img.shields.io/static/v1?label=License&message=MIT&color=blue&style=for-the-badge)
 
@@ -16,7 +16,8 @@ MVC style social media blog using handlebars and JavaScript
 
 # Usage
 Anyone can create an account and post delete and edit posts and comments. Only users that are logged in can make posts, make comments and view comments, but seeing posts does not require a user to be logged in!
-
+## Screenshot
+![Screenshot](https://github.com/DylanShoemaker/jedkh/blob/main/public/assets/screenshot.png)
 
 # License
 
